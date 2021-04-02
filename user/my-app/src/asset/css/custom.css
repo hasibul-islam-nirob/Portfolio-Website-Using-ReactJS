@@ -133,3 +133,17 @@ Technology Used Part
 /*
 Summery Part
  */
+.summaryBanner{
+    background-image: url("../images/topBgImage.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summaryBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(58, 73, 86, 0.5);
+}
