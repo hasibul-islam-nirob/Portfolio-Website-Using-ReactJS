@@ -133,17 +133,59 @@ Technology Used Part
 /*
 Summery Part
  */
-.summaryBanner{
-    background-image: url("../images/topBgImage.jpg");
-    min-height: 500px;
+.summarySection{
+    margin-top: 5rem;
+}
+.summeryFixedBanner{
+    background-image: url("../images/summaryBanner.jpg");
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.summaryBannerOverlay{
+.summeryBannerOverlay{
     position: absolute;
-    min-height: 500px;
+    min-height: 350px;
     width: 100%;
-    background: rgba(58, 73, 86, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+.countSection{
+    margin-top: 15%;
+}
+.countNumber{
+    font-family: 'montserreat',sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.countTitle{
+    font-family: 'montserreat',sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.workingCardSection{
+    margin-top: 15%;
+    padding: 10px 10px;
+}
+.cardTitle{
+    font-family: 'montserreat',sans-serif;
+    font-size: 25px;
+    font-weight: 700 !important;
+    color: #000000;
+    text-align: left;
+}
+
+.cardSubTitle{
+    font-family: 'raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #000000;
+
+}
+.cardIconColor{
+    color: #0073E6;
+    font-size: 16px;
+    margin-right: 5px;
 }
