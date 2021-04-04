@@ -17,7 +17,7 @@ class Summary extends Component {
                                     <Row  className="countSection"  >
                                         <Col>
                                             <h1 className="countNumber" >
-                                                <CountUp start={0} end={100}>
+                                                <CountUp start={0} end={1230}>
                                                     {({ countUpRef, start }) => (
                                                         <VisibilitySensor onChange={start} delayedCall >
                                                             <span ref={countUpRef} />
@@ -30,7 +30,7 @@ class Summary extends Component {
                                         </Col>
                                         <Col>
                                             <h1 className="countNumber" >
-                                                <CountUp start={0} end={65}>
+                                                <CountUp start={0} end={765}>
                                                     {({ countUpRef, start }) => (
                                                         <VisibilitySensor onChange={start} delayedCall >
                                                             <span ref={countUpRef} />

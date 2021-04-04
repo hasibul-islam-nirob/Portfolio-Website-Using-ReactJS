@@ -1,6 +1,11 @@
 /*
 Top Banner Part
  */
+
+.allBgColor{
+    background-color: #e9e7e7;
+}
+
 .topFixedBanner{
     background-image: url("../images/topBgImage.jpg");
     min-height: 500px;
@@ -30,6 +35,9 @@ Top Banner Part
     color: #ffffff;
     font-size: 25px;
 }
+/*
+Services Part
+ */
 .serviceMainTitle{
     color: #0073E6;
     margin-top: 5rem;
@@ -38,9 +46,7 @@ Top Banner Part
     font-size: 28px;
     font-weight: 600;
 }
-/*
-Services Part
- */
+
 .serviceCard{
     margin: 5px 5px 5px 5px;
     padding: 60px 30px 60px 30px;
@@ -188,4 +194,54 @@ Summery Part
     color: #0073E6;
     font-size: 16px;
     margin-right: 5px;
+}
+
+/*
+Recent Project Part
+ */
+.projectCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 2px;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+.projectCard:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 115, 230, 0.2);
+}
+
+.projectCardTitle{
+    font-family: 'montserreat',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+.projectCardDecs{
+    font-family: 'raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #7F7E7E;
+}
+
+/*
+Courses Part
+ */
+.coursesSection{
+
+}
+.coursesSectionImg {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+.coursesSectionTitle{
+    font-family: 'montserreat',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+.coursesSectionDesc{
+    font-family: 'raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #7F7E7E;
 }
