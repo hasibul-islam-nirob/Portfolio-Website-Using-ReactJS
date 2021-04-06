@@ -230,7 +230,6 @@ Courses Part
 }
 .coursesSectionImg {
     width: 100%;
-    border-radius: 5px;
     border: none;
 }
 .coursesSectionTitle{
@@ -244,4 +243,62 @@ Courses Part
     font-size: 16px;
     font-weight: 400 !important;
     color: #7F7E7E;
+}
+.coursesSectionButton{
+    font-family: 'montserreat',sans-serif;
+    font-size: 16px;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+/*
+Video Part
+ */
+.videoSectionCard{
+    box-shadow: 0 0 10px 0 rgba(0, 115, 230, 0.2);
+    padding: 6rem 3rem 6rem 3rem;
+    border-color: #ffffff;
+    margin: 50px auto;
+}
+.videoTitle{
+    font-family: 'montserreat',sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #0073E6;
+}
+.videoDesc{
+    font-family: 'raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #1c1c1c;
+}
+.videoPlayerCycle {
+    color: #0073E6;
+    margin-top: 2rem;
+    font-size: 50px;
+}
+
+/*
+Clients Review Part
+ */
+.clientReviewImg{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0073E6;
+    border-radius: 50px;
+}
+
+.clientReviewTitle{
+    font-family: 'montserreat',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1c1c1c;
+    margin: 1rem;
+}
+.clientReviewDesc{
+    font-family: 'raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #1c1c1c;
 }
