@@ -21,7 +21,7 @@ Top Banner Part
     background: rgba(58, 73, 86, 0.5);
 }
 .topContent{
-    margin-top: 10rem;
+    margin-top: 14rem;
 }
 .topTittle{
     font-family: 'montserreat',sans-serif;
@@ -63,7 +63,7 @@ Services Part
     font-weight: 600;
 }
 .serviceDescription{
-    color: #7F7E7E;
+    color: #1c1c1c;
     margin-top: 1rem;
     font-family: 'raleway',sans-serif;
     font-size: 16px;
@@ -114,7 +114,7 @@ Navigation or Menu Part
     text-decoration: none !important;
     font-family: 'montserreat',sans-serif;
     font-weight: 400;
-    color: #000000 !important;
+    color: #1c1c1c !important;
     font-size: 20px;
 }
 
@@ -133,7 +133,7 @@ Technology Used Part
     font-family: "raleway",sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #000000;
+    color: #1c1c1c;
 }
 
 /*
@@ -179,7 +179,7 @@ Summery Part
     font-family: 'montserreat',sans-serif;
     font-size: 25px;
     font-weight: 700 !important;
-    color: #000000;
+    color: #1c1c1c;
     text-align: left;
 }
 
@@ -187,7 +187,7 @@ Summery Part
     font-family: 'raleway',sans-serif;
     font-size: 14px;
     font-weight: 400 !important;
-    color: #000000;
+    color: #1c1c1c;
 
 }
 .cardIconColor{
@@ -213,13 +213,13 @@ Recent Project Part
     font-family: 'montserreat',sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: #000000;
+    color: #1c1c1c;
 }
 .projectCardDecs{
     font-family: 'raleway',sans-serif;
     font-size: 14px;
     font-weight: 400 !important;
-    color: #7F7E7E;
+    color: #1c1c1c;
 }
 
 /*
@@ -236,13 +236,13 @@ Courses Part
     font-family: 'montserreat',sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: #000000;
+    color: #1c1c1c;
 }
 .coursesSectionDesc{
     font-family: 'raleway',sans-serif;
     font-size: 16px;
     font-weight: 400 !important;
-    color: #7F7E7E;
+    color: #1c1c1c;
 }
 .coursesSectionButton{
     font-family: 'montserreat',sans-serif;
@@ -312,8 +312,6 @@ Footer Part
 }
 .footerMainTitle{
     color: #0073E6;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
     font-family: 'montserreat',sans-serif;
     font-size: 22px;
     font-weight: 600;
@@ -336,4 +334,11 @@ Footer Part
     text-decoration: none;
     color: #0073E6;
     font-weight: 600 !important;
+}
+.copyRightTitle{
+    font-family: 'raleway',sans-serif;
+    font-weight: 400 !important;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 1rem;
 }

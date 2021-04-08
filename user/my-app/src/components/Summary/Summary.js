@@ -11,7 +11,7 @@ class Summary extends Component {
             <Fragment>
                 <Container fluid={true} className="summeryFixedBanner summarySection p-0">
                     <div className="summeryBannerOverlay" >
-                        <Container className="text-center">
+                        <Container className="text-center pb-3 ">
                             <Row>
                                 <Col lg={8} md={6} sm={12} >
                                     <Row  className="countSection"  >

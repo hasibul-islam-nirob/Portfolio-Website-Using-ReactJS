@@ -14,15 +14,16 @@ class TopNavigation extends Component {
             navBarTitle:"navTitle",
             myBrandLogo:[redLogo],
             navBgColor:"navBarBagraound",
-            navItems:"navItem"
+            navItems:"navItem",
+            navVariant:"dark"
         }
     }
 
     onScrollChangeNavbar=()=>{
         if(window.scrollY > 100){
-            this.setState({navBarTitle:"navTitleScroll", myBrandLogo:[blueLogo], navBgColor:"navBarBgScroll", navItems:"navItemScroll"});
+            this.setState({navVariant:"light", navBarTitle:"navTitleScroll", myBrandLogo:[blueLogo], navBgColor:"navBarBgScroll", navItems:"navItemScroll"});
         }else if (window.scrollY < 100){
-            this.setState({navBarTitle:"navTitle", myBrandLogo:[redLogo], navBgColor:"navBarBagraound", navItems:"navItem"});
+            this.setState({navVariant:"dark", navBarTitle:"navTitle", myBrandLogo:[redLogo], navBgColor:"navBarBagraound", navItems:"navItem"});
         }
     }
 
@@ -34,7 +35,7 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar className={this.state.navBgColor} fixed="top" collapseOnSelect expand="lg" variant="dark">
+                <Navbar variant={this.state.navVariant} className={this.state.navBgColor} fixed="top" collapseOnSelect expand="lg" >
                     <Navbar.Brand className={this.state.navBarTitle}> <img src={this.state.myBrandLogo} /> Nirob</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
