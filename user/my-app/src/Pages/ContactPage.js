@@ -1,8 +1,9 @@
 import React, {Component, Fragment} from 'react';
-import TopNavigation from "../TopNavigation/TopNavigation";
-import PageTopSection from "../PageTopSection/PageTopSection";
-import ContactForm from "../ContactForm/ContactForm";
-import Footer from "../Footer/Footer";
+import TopNavigation from "../components/TopNavigation/TopNavigation";
+import PageTopSection from "../components/PageTopSection/PageTopSection";
+import ContactForm from "../components/ContactForm/ContactForm";
+import Footer from "../components/Footer/Footer";
+
 
 class ContactPage extends Component {
     render() {

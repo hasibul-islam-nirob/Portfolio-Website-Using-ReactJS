@@ -450,3 +450,10 @@ Contact Form Section
     border-color: #0073E6 !important;
     box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
 }
+
+/*
+All Services Section
+ */
+.allServicesSection{
+    margin-top: 5rem;
+}

@@ -1,8 +1,9 @@
 import React, {Component, Fragment} from 'react';
-import TopNavigation from "../TopNavigation/TopNavigation";
-import PageTopSection from "../PageTopSection/PageTopSection";
-import AboutPageInformation from "../AboutPageInformation/AboutPageInformation";
-import Footer from "../Footer/Footer";
+import TopNavigation from "../components/TopNavigation/TopNavigation";
+import PageTopSection from "../components/PageTopSection/PageTopSection";
+import AboutPageInformation from "../components/AboutPageInformation/AboutPageInformation";
+import Footer from "../components/Footer/Footer";
+
 
 class AboutPage extends Component {
     render() {
