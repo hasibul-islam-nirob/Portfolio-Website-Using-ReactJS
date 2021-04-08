@@ -302,3 +302,38 @@ Clients Review Part
     font-weight: 400 !important;
     color: #1c1c1c;
 }
+
+/*
+Footer Part
+ */
+.footerSection{
+    box-shadow: 0 0 10px 0 rgba(0, 115, 230, 0.2);
+    margin-top: 5rem;
+}
+.footerMainTitle{
+    color: #0073E6;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'montserreat',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footerAddressDesc{
+    font-family: 'raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #1c1c1c;
+}
+.footerDescLink{
+    font-family: 'raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #1c1c1c;
+}
+
+.footerDescLink:hover{
+    text-decoration: none;
+    color: #0073E6;
+    font-weight: 600 !important;
+}

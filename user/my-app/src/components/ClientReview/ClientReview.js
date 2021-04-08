@@ -52,7 +52,7 @@ class ClientReview extends Component {
         return (
             <Fragment>
                 <Container className="text-center" >
-                    <h1 className="serviceMainTitle" >Clients Reviews</h1>
+                    <h1 className="serviceMainTitle" >Client Reviews</h1>
                     <Slider {...settings} >
 
                         <div>
@@ -94,12 +94,6 @@ class ClientReview extends Component {
                                 </Col>
                             </Row>
                         </div>
-
-
-
-
-
-
 
                     </Slider>
                 </Container>
