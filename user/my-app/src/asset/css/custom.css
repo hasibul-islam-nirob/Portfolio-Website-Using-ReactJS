@@ -106,7 +106,7 @@ Navigation or Menu Part
     text-decoration: none !important;
     font-family: 'montserreat',sans-serif;
     font-weight: 400;
-    color: #ffffff !important;
+    color: #ffffff ;
     font-size: 20px;
 }
 
@@ -455,5 +455,19 @@ Contact Form Section
 All Services Section
  */
 .allServicesSection{
+    margin-top: 5rem;
+}
+
+/*
+Not Found
+ */
+.notFoundSection{
+    margin-top: 5rem;
+}
+.notFoundTitle{
+    color: #e31c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 48px;
+    font-weight: 600;
     margin-top: 5rem;
 }

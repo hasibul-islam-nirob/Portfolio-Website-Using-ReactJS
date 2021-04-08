@@ -9,7 +9,7 @@ class ContactPage extends Component {
     render() {
         return (
             <Fragment>
-                <TopNavigation/>
+                <TopNavigation title="Contact" />
                 <PageTopSection pageTopTitle="Contact With Me" />
                 <ContactForm/>
                 <Footer/>

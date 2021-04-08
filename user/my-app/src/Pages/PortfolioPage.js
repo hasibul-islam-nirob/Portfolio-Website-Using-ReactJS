@@ -9,7 +9,7 @@ class PortfolioPage extends Component {
     render() {
         return (
             <Fragment>
-                <TopNavigation/>
+                <TopNavigation title="Portfolio" />
                 <PageTopSection pageTopTitle="My All Projects" />
                 <AllProjects/>
                 <Footer/>
