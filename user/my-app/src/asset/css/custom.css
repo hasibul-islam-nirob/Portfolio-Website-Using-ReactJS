@@ -342,3 +342,111 @@ Footer Part
     color: #ffffff;
     padding-top: 1rem;
 }
+
+/*
+Page Top Section Section
+ */
+.pageTopFixedBanner{
+    background-image: url("../images/TopPageBanner1.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pageTopBannerOverlay{
+    position: absolute;
+    min-height: 300px;
+    width: 100%;
+    background: rgb(5, 5, 45, 0.8);
+}
+.pageTopContent{
+    margin-top: 10rem;
+    color: #ffffff;
+    font-family: 'raleway',sans-serif;
+    font-weight: 600 !important;
+    font-size: 48px;
+
+}
+
+/*
+About Page Information Section
+ */
+.aboutPageInfoTitle{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.aboutPageInfoDesc{
+    font-family: 'raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #1c1c1c;
+}
+
+/*
+All Course Section
+ */
+.allCoursesPage{
+    margin-top: 5rem;
+}
+.allCourseCardPage{
+}
+.allCourseCardPage:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 115, 230, 0.2);
+    padding: 5px;
+}
+
+
+/*
+All Projects Section
+ */
+.allProjectsTopMargin{
+    margin-top: 5rem;
+}
+.allProjectsCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 2px;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+.allProjectsCard:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 115, 230, 0.2);
+}
+.allProjectImg{ height: 240px; }
+
+/*
+Contact Form Section
+ */
+.contactFormSection{
+    margin-top: 5rem;
+}
+.contactFormTitle{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.contactFormDesc{
+    font-family: 'raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #1c1c1c;
+}
+
+.contactFormSubTitle{
+    font-family: 'raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 600 !important;
+    color: #1c1c1c;
+}
+.form-control:focus{
+    border-radius: 5px !important;
+    border-color: #0073E6 !important;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
+}
