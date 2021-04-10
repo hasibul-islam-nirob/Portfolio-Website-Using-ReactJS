@@ -6,6 +6,9 @@ import ContactForm from "../components/ContactForm/ContactForm";
 import Footer from "../components/Footer/Footer";
 
 class ServicesPage extends Component {
+    componentDidMount() {
+        window.scroll(0,0);
+    }
     render() {
         return (
             <Fragment>

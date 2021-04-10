@@ -1,24 +1,25 @@
 import React, {Component, Fragment} from 'react';
 import TopNavigation from "../components/TopNavigation/TopNavigation";
 import PageTopSection from "../components/PageTopSection/PageTopSection";
-import NotFound from "../components/NotFound/NotFound";
+import RefundPolicy from "../components/RefundPolicy/RefundPolicy";
 import Footer from "../components/Footer/Footer";
-import TopBanner from "../components/TopBanner/TopBanner";
+import TermsConditionSection from "../components/TermsConditionSection/TermsConditionSection";
 
-class NotFoundPage extends Component {
+class TermsConditionPage extends Component {
     componentDidMount() {
         window.scroll(0,0);
     }
+
     render() {
         return (
             <Fragment>
-                <TopNavigation title="Not Found" />
-                <PageTopSection/>
-                <NotFound/>
+                <TopNavigation title="Terms & Condition" />
+                <PageTopSection pageTopTitle="Terms & Condition" />
+                <TermsConditionSection/>
                 <Footer/>
             </Fragment>
         );
     }
 }
 
-export default NotFoundPage;
+export default TermsConditionPage;

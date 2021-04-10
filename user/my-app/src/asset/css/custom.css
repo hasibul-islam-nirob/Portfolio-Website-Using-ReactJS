@@ -1,4 +1,15 @@
 /*
+For All Link Button
+ */
+.linkButton{
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-family: 'montserreat',sans-serif;
+    font-weight: 400 !important;
+}
+
+
+/*
 Top Banner Part
  */
 
@@ -93,6 +104,7 @@ Navigation or Menu Part
     -o-transition: background-color 400ms linear;
     transition: background-color 400ms linear;
     background-color: #ffffff !important;
+    box-shadow: 0 0 10px 0 rgba(0, 115, 230, 0.5);
 }
 
 .navTitleScroll{
@@ -114,7 +126,7 @@ Navigation or Menu Part
     text-decoration: none !important;
     font-family: 'montserreat',sans-serif;
     font-weight: 400;
-    color: #1c1c1c !important;
+    color: #1c1c1c;
     font-size: 20px;
 }
 
@@ -470,4 +482,113 @@ Not Found
     font-size: 48px;
     font-weight: 600;
     margin-top: 5rem;
+}
+
+/*
+Refund Policy Section
+ */
+.refundPolicySection{
+    margin-top: 5rem;
+}
+.refundPolicyList{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+/*
+Terms & Condition Section
+*/
+.termsConditionSection{
+    margin-top: 5rem;
+}
+.termsConditionTitle{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.termsConditionDec{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+/*
+Project Details Section
+projectDetails
+*/
+.projectDetailsSection{
+    margin-top: 5rem;
+}
+.projectDetailsIMG{
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+.projectDetailsTitle{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.projectDetailsSubTitle{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.projectDetailsDec{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+/*
+Course Details Section
+courseDetails
+*/
+.courseDetailsCourseName{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.courseDetailsTopText{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+.courseDetailsTitle{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.courseDetailsOutLineTitle{
+    color: #1c1c1c;
+    font-family: 'montserreat',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.courseDetailsButton:hover{
+    text-decoration: none;
 }

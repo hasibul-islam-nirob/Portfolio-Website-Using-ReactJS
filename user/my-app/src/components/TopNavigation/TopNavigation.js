@@ -5,7 +5,7 @@ import {Nav,Navbar,NavDropdown} from "react-bootstrap";
 import myLogo from "../../asset/images/myLogo.png"
 import redLogo from "../../asset/images/redLogo.png"
 import blueLogo from "../../asset/images/blueLogo.png"
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 class TopNavigation extends Component {
 
@@ -39,7 +39,9 @@ class TopNavigation extends Component {
             <Fragment>
                 <title>{this.state.pageTitle}</title>
                 <Navbar variant={this.state.navVariant} className={this.state.navBgColor} fixed="top" collapseOnSelect expand="lg" >
-                    <Navbar.Brand className={this.state.navBarTitle}> <img src={this.state.myBrandLogo} /> Nirob</Navbar.Brand>
+                    <Link to="/">
+                        <Navbar.Brand className={this.state.navBarTitle}> <img src={this.state.myBrandLogo} /> Nirob</Navbar.Brand>
+                    </Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
